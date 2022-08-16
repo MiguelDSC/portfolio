@@ -547,3 +547,15 @@ textarea {
 [type="submit"]:hover {
   background-color: grey;
 }
+
+/* project
+ */
+
+.project_details {
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

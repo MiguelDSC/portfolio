@@ -14,6 +14,17 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="style.css" />
+    <script src="./js/index.js" defer></script>
+    <script src="./js/project.js" defer></script>
+    <script src="./js/contact.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header id="home">
@@ -48,7 +59,7 @@
       <!-- banner -->
 
       <div class="banner">
-        <img src="edited-pf.png" alt="" />
+        <img src="./media/edited-pf.png" alt="" />
         <div class="container">
           <h1>Portfolio</h1>
           <p>
@@ -72,10 +83,10 @@
           <div class="project-holder"></div>
           <!-- prev next buttons-->
           <div class="button-container">
-            <button class="prev-btn" onclick="prevProject()">
+            <button class="prev-btn buttons" onclick="prevProject()">
               <i class="fas fa-chevron-left"></i>
             </button>
-            <button class="next-btn" onclick="nextProject()">
+            <button class="next-btn buttons" onclick="nextProject()">
               <i class="fas fa-chevron-right"></i>
             </button>
           </div>
@@ -87,6 +98,7 @@
     <section id="contact" class="section">
       <div class="title">
         <h2>Contact</h2>
+        <i class="fa-brands fa-github"></i>
       </div>
       <form>
         <input
@@ -120,6 +132,5 @@
     <a class="scroll-link top-link" href="#home">
       <i class="fas fa-arrow-up"></i>
     </a>
-    <script src="app.js"></script>
   </body>
 </html>
